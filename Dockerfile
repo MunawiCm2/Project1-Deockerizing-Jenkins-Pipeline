@@ -1,3 +1,3 @@
 FROM tomcat:8
 
-copy target/*.war /opt/tomcat/webapps/
+copy target/*.jar /opt/tomcat/webapps/
